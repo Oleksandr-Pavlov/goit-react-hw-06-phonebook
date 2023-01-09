@@ -13,7 +13,7 @@ export const App = () => {
       <Form />
       {contacts.length > 0 ? (
         <>
-          <h2>Contacts</h2>
+          <h2>Your contacts</h2>
           <Filter />
           <ContactsList />
         </>
